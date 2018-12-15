@@ -36,19 +36,20 @@ input, textarea {
 }
 
 .content {
-    margin-right: 10%;
+    margin-right: 5%;
     font-size: 18pt;
-    padding-left: 40px;
+    padding-left: 10px;
     text-align: left;
 }
 
 .background-image-1 .content {
-     margin-left: 8%;
+     margin-left: 5%;
      border-left: none;
 }
 
 .background-image-2 .content {
-    margin-left: 10%;
+    margin-left: 5%;
+    padding-left: 20px;
     border-left: solid 10px #444242;
 
 }
@@ -67,7 +68,7 @@ h1 {
 }
 
 h2 {
-    margin: 2% 5% 2% 10%;
+    margin: 2% 5% 2% 5%;
     font-size: 40pt;
     text-align: left;
 }
@@ -124,7 +125,7 @@ label.error {
     cursor:pointer;
 }
 
-#contact-result, #review-result, .service-images, #contact-loader, #review-loader{
+#contact-result, #review-result, .service-images, #contact-loader, #review-loader {
     display: none;
 }
 
@@ -167,6 +168,12 @@ label.error {
     }
     .header .right .phone {
         padding: 2%;
+    }
+}
+
+@media (max-width: 600px) {
+    .email {
+        font-size: 7pt;
     }
 }
 

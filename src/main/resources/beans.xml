@@ -28,13 +28,13 @@
     </bean>
 
     <bean id="enquiryMessage" class="org.springframework.mail.SimpleMailMessage" autowire="byName">
-        <property name="to" value="leanne_88@hotmail.com"/>
+        <property name="to" value="roofingexcellence_and_buildingservices@hotmail.com"/>
         <property name="from" value="roofingexcellencebuilding@gmail.com"/>
         <property name="subject" value="New Enquiry"/>
     </bean>
 
     <bean id="reviewMessage" class="org.springframework.mail.SimpleMailMessage" autowire="byName">
-        <property name="to" value="leanne_88@hotmail.com"/>
+        <property name="to" value="roofingexcellence_and_buildingservices@hotmail.com"/>
         <property name="from" value="roofingexcellencebuilding@gmail.com"/>
         <property name="subject" value="New Review!"/>
     </bean>
